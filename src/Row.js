@@ -23,7 +23,6 @@ console.log(movies);
                 <>
                 <a href='https://www.youtube.com/watch?v=xvFZjo5PgG0'>
                 <img className='row_posters' src={`${base_url}${movie.poster_path}`}/>
-                <jj>bhj</jj>
                 </a>
                 
                 </>
