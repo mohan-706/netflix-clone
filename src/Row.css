@@ -1,0 +1,31 @@
+.row h1{
+    color: aliceblue;
+    background-color: black;
+}
+.row_poster{
+    display: block;
+    position: relative;
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    gap: 5px;
+}
+.row_posters{
+    display: block;
+    max-height: 250px;
+    object-fit: contain;
+    transition: transform 50ms ;
+    margin-left: 10px;
+
+}
+.row_poster::-webkit-scrollbar{
+    display: none;
+}
+.row_posters:hover{
+    transform: scale(1.2);
+    opacity: 1;
+    max-height: 280px;
+}
+.row{
+    background-color: black;
+}
